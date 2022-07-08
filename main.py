@@ -51,11 +51,6 @@ soln_summary2 = SDP_LP_Approx(Q1)
 plot_func(folder+'Q1.pdf')
 
 #%%
-Q2 = np.array([[0, 0, 1, 1],
-               [0, 0, 1, 1],
-               [1, 1, 0, 0],
-               [1, 1, 0, 0]])
-
 Q2 = np.array([[0, 1, 1, 0, 0],
                [1, 0, 1, 0, 0],
                [1, 1, 0, 1, 1],
